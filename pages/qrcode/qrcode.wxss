@@ -1,0 +1,5 @@
+/* pages/qrcode/qrcode.wxss */
+
+.qrcode {
+    margin-top: 40px;
+}

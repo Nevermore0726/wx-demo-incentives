@@ -1,0 +1,54 @@
+<!--pages/myAccount/myAccount.wxml-->
+<view class="all">
+  <view class="login" style="height:200px;">
+    <image src="../../images/myAccount/backGround.jpg" style="height: 200px" class="loginbg"></image>
+    <image src="../../images/myAccount/user_defaulthead.png" style="border-radius: 100px" class="personal_logo" id="personal_logo"  bindtap="login"></image>
+    <view class="userinfo" style="margin-top:20px;">
+      <view class="title" id="user_name">
+          点击授权登录
+      </view>
+    </view>
+  </view>
+      <!-- 第一块 -->
+    <view class="thirdblock">
+        <view class="item" bindtap="openAccount" data-index="1">
+            <image src="../../images/myAccount/account.png" class="item_ico"></image>
+            <span>我的账户</span>
+        </view>
+        <view class="h1"></view>
+        <view class="item" bindtap="openArchive">
+            <image src="../../images/myAccount/looked.png" class="item_ico"></image>
+            <span>我看过的</span>
+        </view>
+        <view class="h1"></view>
+        <view class="item" bindtap="openTrace" data-index="2">
+            <image src="../../images/myAccount/booklist.png" class="item_ico"></image>
+            <span>我的收藏</span>
+        </view>
+        <view class="h1"></view>
+    </view>
+        <!-- 第三块 -->
+    <view class="h10"></view>
+    <view class="thirdblock">
+        <view class="item" bindtap="openSuggestion" data-index="5" bindtap="openOpinion">
+            <image src="../../images/myAccount/suggest.png" class="item_ico"></image>
+            <span>意见反馈</span>
+        </view>
+        <view class="h1"></view>
+        <view class="item" bindtap="openAboutUs" data-index="4">
+            <image src="../../images/myAccount/about.png" class="item_ico"></image>
+            <span>关于我们</span>
+        </view>
+        <view class="h1"></view>
+        <view class="item" bindtap="">
+            <image src="../../images/myAccount/join_in.png" class="item_ico"></image>
+            <span>邀请朋友</span>
+            <image src="../../images/myAccount/hot.png" class="item_arrow"></image>
+        </view>
+        <view class="h1"></view>
+        <view class="item" bindtap="openSetting">
+            <image src="../../images/myAccount/setting.png" class="item_ico"></image>
+            <span>设置</span>
+        </view>
+    </view>
+</view>

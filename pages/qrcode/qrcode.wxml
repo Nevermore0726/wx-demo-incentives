@@ -1,0 +1,5 @@
+<!--pages/qrcode/qrcode.wxml-->
+<view class="container">
+  <image src="{{img}}" class="qrcode" mode="aspectFit">
+  </image>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/item/item.wxml-->
+<view class="container">
+  <image class="background" src="../../images/index/itemBackground.jpg" mode="aspectFill"/>
+  <scroll-view class="container" scroll-y="true">
+    <view class="meta">
+      <image class="poster" src="../../images/index/itemBackground.jpg" mode="aspectFit"/>
+      <text class="title">37号公告(2017)</text>
+      <text class="info">发布时间：10月</text>
+      <text class="info">生效日期：<block> 2017年12月1日 </block></text>
+    </view>
+    <view class="summary">
+      <text class="label">摘要：</text>
+      <text class="content">37号公告将自2017年12月1日起取代一系列有关非居民企业所得税源泉扣缴的法规，包括国税函[2009]698号文（以下简称“698号文”，即《关于加强非居民企业股权转让所得企业所得税管理的通知》）及国税发[2009]3号文（以下简称“3号文”，即《非居民企业所得税源泉扣缴管理暂行办法》。
+</text>
+    </view>
+  </scroll-view>
+</view>

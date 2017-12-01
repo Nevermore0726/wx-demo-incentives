@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <text>税收法规</text>
+  </view>
+  <scroll-view scroll-y="true" class="list">
+    <navigator url="../item/item">
+      <view class="item">
+        <image class="poster" src="../../images/index/itemBackground.jpg"/>
+        <view class="meta">
+          <text class="title">37号公告</text>
+          <text class="sub-title">发布时间：2017年10月</text>
+          <view class="artists">生效日期<block> 2017年12月1日 </block></view>
+        </view>
+        <view class="rating">
+          <text>2017</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../item/item">
+      <view class="item">
+        <image class="poster" src="../../images/index/itemBackground-2.jpg"/>
+        <view class="meta">
+          <text class="title">16号公告</text>
+          <text class="sub-title">发布时间：2017年5月</text>
+          <view class="artists">生效日期<block> 2017年5月19日 </block></view>
+        </view>
+        <view class="rating">
+          <text>2017</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator url="../item/item">
+      <view class="item">
+        <image class="poster" src="../../images/index/itemBackground-3.jpg"/>
+        <view class="meta">
+          <text class="title">环保税</text>
+          <text class="sub-title">发布时间：2017年6月</text>
+          <view class="artists">生效日期<block> 2017年6月26日 </block></view>
+        </view>
+        <view class="rating">
+          <text>2017</text>
+        </view>
+      </view>
+    </navigator>
+        <navigator url="../item/item">
+      <view class="item">
+        <image class="poster" src="../../images/index/itemBackground-2.jpg"/>
+        <view class="meta">
+          <text class="title">40号公告</text>
+          <text class="sub-title">发布时间：2017年11月</text>
+          <view class="artists">生效日期<block> 2017年度及以后年度汇算清缴 </block></view>
+        </view>
+        <view class="rating">
+          <text>2016</text>
+        </view>
+      </view>
+    </navigator>
+        <navigator url="../item/item">
+      <view class="item">
+        <image class="poster" src="../../images/index/itemBackground-3.jpg"/>
+        <view class="meta">
+          <text class="title">环保税</text>
+          <text class="sub-title">发布时间：2017年6月</text>
+          <view class="artists">生效日期<block> 2017年6月26日 </block></view>
+        </view>
+        <view class="rating">
+          <text>2015</text>
+        </view>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>
