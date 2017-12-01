@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/item/item",
+    "pages/logs/logs",
+    "pages/myAccount/myAccount",
+    "pages/account/account",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/aboutUs/aboutUs",
+    "pages/qrcode/qrcode"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#c0c0c0",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#35495e",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/index",
+      "iconPath": "images/jason/index.png",
+      "selectedIconPath": "images/jason/indexFill.png"
+    },
+    {
+      "text": "税收优惠",
+      "pagePath": "pages/myAccount/myAccount",
+      "iconPath": "images/jason/incentives.png",
+      "selectedIconPath": "images/jason/incentivesFill.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/account/account",
+      "iconPath": "images/jason/myAccount.png",
+      "selectedIconPath": "images/jason/myAccountFill.png"
+    }]
+  }
+}
